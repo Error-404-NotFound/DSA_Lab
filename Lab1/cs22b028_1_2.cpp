@@ -77,6 +77,7 @@ void Relation::isSymmetric() {
 
 int main() {
     int n;
+    cout << "Enter n:";
     cin >> n;
     Relation R(n);
     R.display();
