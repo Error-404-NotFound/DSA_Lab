@@ -1,15 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Write a C program to perform addition on two large numbers, where each number consists of 100 digits.
+
 string add(string s1,string s2) 
 {
     int n1=s1.length();
     int n2=s2.length();
-    if(n1<n2) {
-        string temp=s1;
-        s1=s2;
-        s2=temp;
-    }
     reverse(s1.begin(),s1.end());
     reverse(s2.begin(),s2.end());
     string result="";
@@ -41,6 +38,11 @@ int main()
     string s1,s2;
     cin >> s1;
     cin >> s2;
+    if(s1.length()<s2.length()) {
+        string temp=s2;
+        s2=s1;
+        s1=temp;
+    }
     string result = add(s1,s2);
     int count=0;
     for(int i=0;i<result.length();i++) {

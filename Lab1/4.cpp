@@ -1,6 +1,15 @@
 #include<iostream>
 using namespace std;
 
+// Design a data structure  sortedArray S and support the following operations using classes in C++.
+// S.reserve(k); // reserves space to store k integers
+// S.size( ); // returns the number of occupied elements
+// S.insert(x ); // insert an integer x 
+// S.delete(x); //delete the element x if exists
+// S.search(x); // returns true or false based on the existence of x in S
+// S.display(); // displays all the elements in S 
+
+
 class Array {
     private:
         int *p;
@@ -25,8 +34,7 @@ int Array::size() {
     
 }
 
-int Array::insert(int n) {
-    for(int i=0;i<)
+int Array::insert(int n) {  
 }
 
 int main() {

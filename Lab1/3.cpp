@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
 
+// Design a data-structure myString S and support the following operations using classes in C++. 
+// S.length(); //returns the length of the string.
+// S.init(“hello”); // the string S is initialized to “hello” - we have to copy the word “hello” to a character array, which is maintained internally in S.
+// S.upper(); // convert all characters in s to uppercase.
+// S.display(); // print the current string
+
+
 class String {
     private:
         char *s;

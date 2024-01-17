@@ -2,6 +2,13 @@
 #include<ctime>
 using namespace std;
 
+// nth Fibonacci number 
+// Write a function to compute the nth Fibonacci number using recursion and return the result.
+//  Write a function to compute the nth Fibonacci number using loops and return the result.
+// Validation: check the outputs of two functions 
+// Speedup: Run the above two programs on various values of n and prepare a table with running times on two approaches and the speedup of the efficient approach with respect to the other approach.
+
+
 int fibo_r(int n)
 {
     if(n<2) 
